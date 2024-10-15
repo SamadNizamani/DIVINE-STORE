@@ -1,7 +1,8 @@
+"use client"
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "../components/Header"; // Header component import
 import Footer from "@/components/Footer";
 
 const geistSans = localFont({
@@ -28,7 +29,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <Header /> {/* Add Header here */}
 
         {children} {/* Main content will be injected here */}
 
