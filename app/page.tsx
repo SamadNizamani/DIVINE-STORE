@@ -1,13 +1,13 @@
 "use client"
-import Hero from '../components/Hero';
-import Fragrances from '@/components/Fragrances';
-import FeaturedProducts from '@/components/FeaturedProducts';
-import Header from '@/components/Header';
+
+import FeaturedProducts from "@/components/FeaturedProducts";
+import Fragrances from "@/components/Fragrances";
+import Hero from "@/components/Hero";
+
 
 const Home = () => {
   return (
     <main>
-            <Header /> {/* Add Header here */}
 
       <Hero />
       {/* Other sections will go here */}
